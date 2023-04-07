@@ -1,0 +1,22 @@
+@charset "utf-8";
+
+h1{ 
+    background-color: aquamarine;
+    color: blue;
+    text-shadow: 3px 3px 5px #300;
+    font-family: Georgia, "Times New Roman";
+    text-align: center;
+}
+p.paragrafo_1 {
+    color: rgb(91, 57, 195);
+}
+p.fundo {
+    background-color:red ;
+}
+
+.generico{
+    color: rgb(132, 136, 18);
+}
+footer{
+    text-align: center;
+}
