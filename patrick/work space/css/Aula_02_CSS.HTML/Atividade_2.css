@@ -1,0 +1,13 @@
+@charset "utf=8";
+
+* {
+    font-size: 1rem;
+    font-family: "Roboto Mono", monospace;
+    font-weight: 700;
+    background-color: #b3e9f3;
+}
+
+.principal {
+    background-color: #6590d1;
+    text-shadow:3px 3px 3px#48789f;
+}

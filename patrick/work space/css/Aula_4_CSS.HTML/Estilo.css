@@ -1,0 +1,22 @@
+@charset "utf-8";
+
+* {
+    background-color: cadetblue;
+    font-family:alkatra;
+    font-size: 2em;
+}
+
+.CorDeFundo {
+    background-color: aquamarine;
+}
+
+.CorDiferente {
+    background-color: purple;
+}
+
+#CorSegundaria {
+    background-color: pink;
+}
+#pipoca p{
+    color: blue;
+}
