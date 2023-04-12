@@ -1,0 +1,19 @@
+@charset "utf=8";
+
+h1{
+    text-align: center;
+}
+
+figure{
+    text-align: center;
+    border:2px solid #000;
+    padding:5px;
+    width: 600px;
+}
+
+.imagemdefundo{
+    background-image: url("jericoacoara.jpg");
+    background-repeat: no-repeat;
+    background-position:center ;
+    background-size: cover;
+}
