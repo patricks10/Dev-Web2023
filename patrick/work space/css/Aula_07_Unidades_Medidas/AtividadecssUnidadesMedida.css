@@ -1,0 +1,62 @@
+@charset "utf-8";
+
+* {
+    margin: 0mm;
+}
+
+body {
+    font-size: 17px;
+    margin: 1cm;
+    font-family: 'cursive' Arial, Helvetica;
+    line-height: 1.6em;
+    background-color: #ff4e02;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+h1 {
+    color: green;
+    font-size: 350%;
+}
+
+h3 {
+    padding-top: 10px;
+    margin: 1cm;
+    color: black;
+    font-size: 300%;
+}
+
+.dragon {
+    margin: 1cm;
+    color: #ff4e02;
+    background-image: url("dragon.jpg");
+    height: 65vh;
+    width: 90vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+
+p { 
+    margin-bottom: 50px;
+}
+
+.naruto {
+    margin: 10mm;
+    color: rgb(246, 255, 0);
+    background-image: url("naruto.jpg");
+    height: 65vh;
+    width: 90vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+
+.botao {
+    font-size: 18px;
+    text-decoration: none;
+    color: #000000;
+    border: #000000 1px dotted;
+    padding: 10px 10px;   
+}
