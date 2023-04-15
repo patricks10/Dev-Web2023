@@ -36,27 +36,41 @@ h3 {
     background-repeat: no-repeat;
     background-size: cover;
     text-align: center;
+    border: #000000 5px solid;
 }
 
-p { 
-    margin-bottom: 50px;
+p {
+    margin-bottom: 80px;
 }
 
 .naruto {
     margin: 10mm;
-    color: rgb(246, 255, 0);
+    color: rgb(255, 0, 170);
     background-image: url("naruto.jpg");
     height: 65vh;
     width: 90vw;
     background-repeat: no-repeat;
     background-size: cover;
     text-align: center;
+    border: #000000 5px solid;
+}
+
+.demonslayer {
+    margin: 10mm;
+    color: rgb(246, 255, 0);
+    background-image: url("demon\ slayer.jpg");
+    height: 65vh;
+    width: 90vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    border: #000000 5px solid;
 }
 
 .botao {
-    font-size: 18px;
+    font-size: 22px;
     text-decoration: none;
     color: #000000;
     border: #000000 1px dotted;
-    padding: 10px 10px;   
+    padding: 10px 10px;
 }
