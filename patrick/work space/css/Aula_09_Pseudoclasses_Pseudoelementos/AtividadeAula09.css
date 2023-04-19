@@ -1,0 +1,39 @@
+@charset "UTF-8";
+
+/* Pseudoclasses */
+
+li:first-child {
+    background: gold;
+}
+
+li:nth-child(2) {
+    color: silver;
+}
+
+li:last-child {
+    background: brown;
+}
+
+a:hover {
+    color: rgb(0, 255, 76);
+}
+
+a:link {
+    background-color: bisque;
+}
+
+/* Pseudoelementos */
+
+p::after {
+    content: " - leia mais";
+}
+
+p::first-letter {
+    font-size: 150%;
+    color: violet;
+}
+
+p::selection {
+    color: white;
+    background-color: blue;
+}
