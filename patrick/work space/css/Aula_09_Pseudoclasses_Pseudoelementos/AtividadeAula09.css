@@ -35,5 +35,10 @@ p::first-letter {
 
 p::selection {
     color: white;
-    background-color: blue;
+    background-color: red;
+}
+
+h3{
+    float: right;
+    width: 79%;
 }
