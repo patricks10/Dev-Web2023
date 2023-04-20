@@ -1,0 +1,36 @@
+@charset "utf-8";
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+img{
+    width: 60%;
+}
+
+body{
+    width: 80%;
+    margin: auto;
+    padding: 30px;
+    font-size: 25px;
+    font-family:'Arial' Helvetica sans-serif;
+}
+
+.borda{
+    border: 2px solid #000;
+    height: 550px;
+}
+
+#neymar{
+    float: left;
+}
+
+#cr7{
+    float: right;
+}
+
+@media(max-width:414px) {
+    .borda {width: 100%;
+    }
+}
