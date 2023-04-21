@@ -10,21 +10,50 @@
 </head>
 
 <body>
-    <h1>campos</h1>
+    <h1>Campos a preencher</h1>
     <form action="#">
         <label>Nome<input type="text" required placeholder="Digite seu nome"></label>
         <br>
         <label>Sobrenome <input type='text' required placeholder="Digite seu sobrenome"></label>
         <br>
-        <label>Data Nascimento <input type="text" required placeholder="Digite a data de nascimento"></label>
+        <label>Data Nascimento <input type="text" required placeholder="Sua data de nascimento"></label>
         <br>
         <label>Email<input type="text" required placeholder="Digite seu email"></label>
         <br>
-        <label>Telefone Celular <input type="number" required placeholder="Digite seu telefone celular"></label>
+        <label>Telefone Celular <input required id="Celular" type="tel" placeholder="(00)0000-0000"/></label>
         <br>
-        <label>Telefone Fixo <input type="number" required placeholder="Digite seu telefone fixo"></label>
+        <label>Telefone Fixo <input id="Telefone" type="tel" placeholder="(00)0000-0000"/></label>
         <br>
-        <label>Escolaridade <input type="text"></label>
+        <label for="escolaridade">Escolaridade </label>
+        <select name="" id="escolaridade">
+            <option value="">Ensino Fundamental I</option>
+            <option value="">Ensino Fundamental II</option>
+            <option value="">1° ano do ensino médio</option>
+            <option value="">2° ano do ensino médio</option>
+            <option value="">3° ano do ensino médio</option>
+            <option value="">Escolaridade completa</option>
+        </select>
+        <br>
+        <label>CPF <input required id="CPF" type="text" placeholder="000.000.000-00"></label>
+        <br>
+        <label>Profissão <input type="text" required placeholder="Digite sua profissão"></label>
+        <br>
+        <label for="sexo">Sexo</label>
+        <select name="" id="sexo">
+            <option value="">Masculino</option>
+            <option value="">Feminino</option>
+            <option value="">Não identificar</option>
+        </select>
+        <br>
+        <label>País <input type="text" required placeholder="Digite o país que nasceu"></label>
+        <br>
+        <label>Cidade <input type="text" required placeholder="Digite sua cidade"></label>
+        <br>
+        <label>Estado <input type="text" required placeholder="Digite seu estado"></label>
+        <br>
+        <label>CEP  <input required id="CEP" type="text" placeholder="00000-000"></label>
+        <br>
+        <h3>Enviar<input type="submit" value="Enviar"></h3>
     </form>
 </body>
 
