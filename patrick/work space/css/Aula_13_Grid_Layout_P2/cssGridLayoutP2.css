@@ -9,7 +9,7 @@ body {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 1em;
-    grid-auto-rows: minmax(100px, auto);
+    grid-auto-rows: minmax(90px, auto);
     background-color: aqua;
 
 }
@@ -38,7 +38,7 @@ grid-row-end: 3;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 1em;
-    grid-auto-rows: minmax(100px, auto);
+    grid-auto-rows: minmax(90px, auto);
     background-color: aqua;
 }
 
@@ -56,7 +56,7 @@ grid-row-end: 3;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 1em;
-    grid-auto-rows: minmax(100px, auto);
+    grid-auto-rows: minmax(90px, auto);
     background-color: aqua;
 }
 
@@ -66,4 +66,55 @@ grid-row-end: 3;
 
 #template3 .box3{
     grid-area: 1 /2 /3 /1; 
+}
+
+/* 4° template */
+#template4{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 1em;
+    grid-auto-rows: minmax(90px, auto);
+    background-color: blue;
+}
+
+#template4>div {
+background-color: orange;
+}
+
+#template4 .box4{
+    justify-self: start;
+}
+
+/* 5° template */
+#template5{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 1em;
+    grid-auto-rows: minmax(90px, auto);
+    background-color:yellowgreen;
+}
+
+#template5>div{
+    background-color: blueviolet;
+}
+
+#template5 .box1{
+    align-self:end;
+}
+
+/* 6° template */
+#template6{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 1em;
+    grid-auto-rows: minmax(90px, auto);
+    background-color:goldenrod;
+}
+
+#template6>div{
+    background-color:#009dff ;
+}
+
+#template6 .box2{
+    place-self: center;
 }
