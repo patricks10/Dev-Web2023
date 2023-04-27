@@ -1,0 +1,22 @@
+@charset "utf-8";
+
+* {
+
+    background-color: maro
+    
+}
+
+header{
+    width: 60%;
+    padding:20px;
+    margin:auto;
+    background-color: rgb(255, 94, 0);
+    text-align: center;
+}
+
+img {
+    height:100px;
+    width: 100px;
+    float: left;
+    align-items: center;
+}
