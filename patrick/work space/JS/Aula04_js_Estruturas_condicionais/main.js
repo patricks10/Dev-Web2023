@@ -53,5 +53,4 @@ if(8 > 7){
 }
 
 
-switch()
-0
+switch
