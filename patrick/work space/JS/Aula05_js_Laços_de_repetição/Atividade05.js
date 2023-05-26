@@ -1,21 +1,19 @@
 // 1)while
-let contador = 1;
-while (contador <= 50) {
-    console.log(`Valor = ${contador}`);
-    contador++;
+var i = 1;
+console.log("1) While");
+while(i <= 50) {
+    console.log(i++);
 }
-console.clear()
 
 //2)do-while
-let i = 0,
-    text = '';
+console.log("2) Do & While");
+i = 10;
 do {
-    text += `O número é ${i}\n`;
-    i++;
-} while (i < 10);
-console.log(text);
+    console.log(i--);
+} while (i >= 0);
 
 //3)for
-// for (let i = 0; i <= 100;  i + 2){
-//     console.log(`Valor = ${i}`);
-// } 
+console.log("3) For");
+for (let i = 0; i <= 100; i +=2) {
+    console.log(i);
+};
