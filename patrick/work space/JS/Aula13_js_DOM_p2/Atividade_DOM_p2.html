@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade aula 13 js DOM II</title>
+</head>
+
+<body>
+    <h1>Manipulando o DOM</h1>
+
+    <ul id="items" class="list">
+        <li class="item" id="item0">1</li>
+        <li class="item" id="item1">2</li>
+        <li class="item" id="item2">3</li>
+        <li class="item" id="item3" name="linha">4</li>
+        <li class="item" id="item4">5</li>
+        <li class="item" id="item5">6</li>
+    </ul>
+    <!-- li 1 -->
+    <button onclick="mudarFundo()">Click 1</button>
+    <!-- li 2 -->
+    <button onclick="bold()">Click 2</button>
+    <!-- li 3 -->
+    <button onclick="listras()">Click 3</button>
+    <!-- li 4 -->
+    <button onclick="linha()">Click 4</button>
+    <!-- li 5 -->
+    <button onclick="apagar()">Click 5</button>
+    <!-- li 6 -->
+    <button onclick="recuperar()">Click 6</button>
+
+
+    <script>
+        // li 1
+        function mudarFundo() {
+            const item0 = document.getElementById('item0');
+            item0.style.backgroundColor = 'blue';
+        }
+
+        // li 2
+        function bold() {
+            let item1 = document.getElementsByClassName('item');
+            item1[1].style.fontWeight = 'bold';
+        }
+
+        // li 3
+        function listras() {
+            let li = document.getElementsByTagName('li');
+            console.log(li);
+            for (let i = 0; i < li.length; i++) {
+                if (i % 2) li[i].style.backgroundColor = 'blue';
+                else li[i].style.backgroundColor = 'red';
+            }
+        }
+
+        // li 4
+        function linha() {
+            let nome = document.getElementsByName('linha');
+            nome[0].style.borderBottom = 'solid 5px black';
+            console.log(nome);
+        }
+
+        // li 5
+        let item5 = document.getElementById('item5');
+
+        function apagar() {
+            item5.remove();
+        }
+
+
+        // li 6
+        let lista = document.getElementById('items');
+        let item4 = document.getElementById('item4');
+        
+        function recuperar() {
+            lista.insertBefore(item5, item4.nextSibling);
+            item5.textContent = 'Item recuperado'
+        
+
+        }
+
+    </script>
+</body>
+
+</html>
